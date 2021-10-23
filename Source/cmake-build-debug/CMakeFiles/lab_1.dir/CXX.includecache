@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/ListByArray.h
+
+C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/ListByLink.h
+
+C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/ResultPackage.h
+
+C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/main.cpp
+cstdio
+-
+ResultPackage.h
+C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/ResultPackage.h
+ListByArray.h
+C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/ListByArray.h
+ListByLink.h
+C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/ListByLink.h
+

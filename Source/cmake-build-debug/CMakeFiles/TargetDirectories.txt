@@ -1,0 +1,3 @@
+C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/cmake-build-debug/CMakeFiles/lab_1.dir
+C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
