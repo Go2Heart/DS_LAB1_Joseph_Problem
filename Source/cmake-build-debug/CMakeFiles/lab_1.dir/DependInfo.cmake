@@ -8,9 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/ListByArray.cpp" "C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/cmake-build-debug/CMakeFiles/lab_1.dir/ListByArray.cpp.obj"
-  "C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/ListByLink.cpp" "C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/cmake-build-debug/CMakeFiles/lab_1.dir/ListByLink.cpp.obj"
-  "C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/main.cpp" "C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/cmake-build-debug/CMakeFiles/lab_1.dir/main.cpp.obj"
+  "C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ListByArray.cpp" "C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/cmake-build-debug/CMakeFiles/lab_1.dir/ListByArray.cpp.obj"
+  "C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ListByLink.cpp" "C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/cmake-build-debug/CMakeFiles/lab_1.dir/ListByLink.cpp.obj"
+  "C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ResultPackage.cpp" "C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/cmake-build-debug/CMakeFiles/lab_1.dir/ResultPackage.cpp.obj"
+  "C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/main.cpp" "C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/cmake-build-debug/CMakeFiles/lab_1.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

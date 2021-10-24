@@ -6,19 +6,37 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/ListByArray.h
+C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ListByArray.h
 
-C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/ListByLink.h
+C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ListByLink.cpp
+cstdio
+-
+cstdlib
+-
+ResultPackage.h
+C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ResultPackage.h
+ListByLink.h
+C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ListByLink.h
 
-C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/ResultPackage.h
+C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ListByLink.h
 
-C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/main.cpp
+C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ResultPackage.cpp
+cstdio
+-
+cstdlib
+-
+ResultPackage.h
+C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ResultPackage.h
+
+C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ResultPackage.h
+
+C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/main.cpp
 cstdio
 -
 ResultPackage.h
-C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/ResultPackage.h
+C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ResultPackage.h
 ListByArray.h
-C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/ListByArray.h
+C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ListByArray.h
 ListByLink.h
-C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/ListByLink.h
+C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ListByLink.h
 

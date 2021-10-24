@@ -21,7 +21,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30037/bin/Hostx86/x86/cl.exe 
@@ -45,27 +45,27 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
 
-The CXX compiler identification is MSVC, found in "C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+The CXX compiler identification is MSVC, found in "C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake -f Makefile /nologo cmTC_f2faf\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_f2faf.dir\build.make /nologo -L                  CMakeFiles\cmTC_f2faf.dir\build
-Building C object CMakeFiles/cmTC_f2faf.dir/testCCompiler.c.obj
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_f2faf.dir\testCCompiler.c.obj.d --working-dir=C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\cmake-build-debug\CMakeFiles\CMakeTmp --filter-prefix="" -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @C:\Users\TRY\AppData\Local\Temp\nm39C.tmp
-Linking C executable cmTC_f2faf.exe
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_f2faf.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_f2faf.dir\objects1.rsp @C:\Users\TRY\AppData\Local\Temp\nm3EB.tmp
+Run Build Command(s):nmake -f Makefile /nologo cmTC_b4959\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_b4959.dir\build.make /nologo -L                  CMakeFiles\cmTC_b4959.dir\build
+Building C object CMakeFiles/cmTC_b4959.dir/testCCompiler.c.obj
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_b4959.dir\testCCompiler.c.obj.d --working-dir=C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\cmake-build-debug\CMakeFiles\CMakeTmp --filter-prefix="" -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @C:\Users\TRY\AppData\Local\Temp\nm4FA3.tmp
+Linking C executable cmTC_b4959.exe
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_b4959.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_b4959.dir\objects1.rsp @C:\Users\TRY\AppData\Local\Temp\nm5002.tmp
 
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake -f Makefile /nologo cmTC_3a898\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_3a898.dir\build.make /nologo -L                  CMakeFiles\cmTC_3a898.dir\build
-Building CXX object CMakeFiles/cmTC_3a898.dir/testCXXCompiler.cxx.obj
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_3a898.dir\testCXXCompiler.cxx.obj.d --working-dir=C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\cmake-build-debug\CMakeFiles\CMakeTmp --filter-prefix="" -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @C:\Users\TRY\AppData\Local\Temp\nm62D.tmp
-Linking CXX executable cmTC_3a898.exe
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_3a898.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_3a898.dir\objects1.rsp @C:\Users\TRY\AppData\Local\Temp\nm67C.tmp
+Run Build Command(s):nmake -f Makefile /nologo cmTC_2d699\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_2d699.dir\build.make /nologo -L                  CMakeFiles\cmTC_2d699.dir\build
+Building CXX object CMakeFiles/cmTC_2d699.dir/testCXXCompiler.cxx.obj
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_2d699.dir\testCXXCompiler.cxx.obj.d --working-dir=C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\cmake-build-debug\CMakeFiles\CMakeTmp --filter-prefix="" -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @C:\Users\TRY\AppData\Local\Temp\nm5272.tmp
+Linking CXX executable cmTC_2d699.exe
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_2d699.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_2d699.dir\objects1.rsp @C:\Users\TRY\AppData\Local\Temp\nm52D1.tmp
 
 
 

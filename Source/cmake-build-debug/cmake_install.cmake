@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1
+# Install script for directory: C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

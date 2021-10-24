@@ -14,7 +14,7 @@ bool isEmpty(DemoList &L);
 bool TailAdd(DemoList &L, int x);
 struct ListByLink
 {
-    DemoList Demo;
+	DemoList Demo;
 	ListNode *Tail, *Cur;
 	int ListLength;
 	bool InitList();
@@ -26,4 +26,3 @@ struct ListByLink
 	int GetSize();
 	bool IsEmpty();
 };
-

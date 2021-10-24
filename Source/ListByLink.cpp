@@ -11,19 +11,24 @@ bool ListNodeInit(ListNode **x)
 	(*x) -> Next = NULL;
 	return true;
 }
-bool InitDemo(DemoList &L){
+
+bool InitDemo(DemoList &L)
+{
     if(!ListNodeInit(&L.T)) return false;
     L.T->Next = L.T;
     L.T->Data = -1;
 
     return true;
 }
-bool isEmpty(DemoList &L){
+
+bool isEmpty(DemoList &L)
+{
     if (L.T->Data == -1) return true;
     else return false;
 }
 
-bool TailAdd(DemoList &L, int x){
+bool TailAdd(DemoList &L, int x)
+{
     if(!L.T) return false;
     if(isEmpty(L)) {
         L.T->Data = x;
@@ -37,12 +42,12 @@ bool TailAdd(DemoList &L, int x){
     L.T = Temp;
     return true;
 }
+
 bool ListByLink::InitList()
 {
 	if(!ListNodeInit(&Tail))
 		return false;
 	Tail -> Next = Tail;
-	Cur = Tail;
 	ListLength = 0;
 	return true;
 }
@@ -59,11 +64,12 @@ bool ListByLink::AddToTail(int x)
 	}
 	ListNode *Tmp = Tail -> Next;
 	Tail -> Next = NULL;
-	if (!ListNodeInit(&(Tail -> Next)))
+	if(!ListNodeInit(&(Tail -> Next)))
 		return false;
 	Tail -> Next -> Next = Tmp;
 	Tail = Tail -> Next;
 	Tail -> Data = x;
+	Cur = Tail;
 	ListLength++;
 	// fprintf(stderr, "%d\n====\n", Cur -> Data);
 	return true;
@@ -87,7 +93,11 @@ bool ListByLink::PrintListForDebug()
 
 bool ListByLink::DestroyList()
 {
-	if(Tail == NULL || Tail -> Next)
+	if(ListLength == 0 && Tail == NULL)
+		return true;
+	if(ListLength == 0 && Tail != NULL)
+		return false;
+	if(Tail == NULL || Tail -> Next == NULL)
 		return false;
 	ListLength = 0;
 	ListNode *Tmp = Tail -> Next;
@@ -98,12 +108,15 @@ bool ListByLink::DestroyList()
 		ListNode *Del = Tmp;
 		Tmp = Tmp -> Next;
 		free(Del);
+		if(Del != NULL)
+			return false;
 	}
 	free(Tail);
+	Tail = NULL;
 	return true;
 }
 
-bool ListByLink::DeleteNextElement(ResultPackage *Result) //可以避免双向列表
+bool ListByLink::DeleteNextElement(ResultPackage *Result)
 {
 	if(Cur == NULL)
 		return false;
@@ -111,11 +124,16 @@ bool ListByLink::DeleteNextElement(ResultPackage *Result) //可以避免双向�
 		return false;
 	ListLength--;
 	ListNode* Tmp = Cur -> Next;
-	Cur -> Next = Tmp -> Next;
 	if(Tmp == Tail)
+	{
 		Tail = Cur;
+		if(Cur == Tmp)
+			Tail = NULL;
+	}
 	Result -> Pos = Tmp -> Data;
-	free(Tmp);
+	Tmp = Tmp -> Next;
+	free(Cur -> Next);
+	Cur -> Next = Tmp;
 	return true;
 }
 
@@ -128,14 +146,12 @@ bool ListByLink::DeleteNextMthElement(int m, ResultPackage *Result)
 	{
 		if(Cur -> Next == NULL)
 			return false;
-
 		Cur = Cur -> Next;
-        TailAdd(Demo,Cur->Data);
+		TailAdd(Demo, Cur->Data);
 	}
-
 	if(!DeleteNextElement(Result))
 		return false;
-    TailAdd(Demo,Result->Pos);
+	TailAdd(Demo, Result->Pos);
 	return true;
 }
 

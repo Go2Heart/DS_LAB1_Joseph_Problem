@@ -9,6 +9,9 @@ CMakeFiles\lab_1.dir\ListByLink.cpp.obj: ..\ListByLink.cpp
 CMakeFiles\lab_1.dir\ListByLink.cpp.obj: ..\ListByLink.h
 CMakeFiles\lab_1.dir\ListByLink.cpp.obj: ..\ResultPackage.h
 
+CMakeFiles\lab_1.dir\ResultPackage.cpp.obj: ..\ResultPackage.cpp
+CMakeFiles\lab_1.dir\ResultPackage.cpp.obj: ..\ResultPackage.h
+
 CMakeFiles\lab_1.dir\main.cpp.obj: ..\ListByArray.h
 CMakeFiles\lab_1.dir\main.cpp.obj: ..\ListByLink.h
 CMakeFiles\lab_1.dir\main.cpp.obj: ..\ResultPackage.h

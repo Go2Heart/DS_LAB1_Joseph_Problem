@@ -9,4 +9,5 @@ add_executable(lab_1
         ListByLink.cpp
         ListByLink.h
         main.cpp
+        ResultPackage.cpp        
         ResultPackage.h)

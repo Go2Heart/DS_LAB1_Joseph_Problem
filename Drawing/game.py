@@ -108,12 +108,6 @@ while True:
         DrawArc(screen, 300 + 150 * math.sin(rad * (Point[i]-1)), 300 + 150 * math.cos(rad *(Point[i]-1)),
                 (0, 0, 0), 5)
         if Point[i] == Odder[i1] :
-            #DrawArc(screen, 300 + 200 * math.sin(rad * (Odder[i1] - 1)), 300 + 200 * math.cos(rad * (Odder[i1] - 1)),
-            #        (100, 100, 100), 31)
-            #pygame.display.update()
-            #pygame.time.delay(50)
-            #DrawArc(screen, 300 + 200 * math.sin(rad * (Odder[i1] - 1 )), 300 + 200 * math.cos(rad * (Odder[i1]- 1) ),(255, 255, 255), 31)
-            #pygame.display.update()
             disappear(screen,rad * (Odder[i1] - 1 ))
             i1 = i1 + 1
         i = i + 1

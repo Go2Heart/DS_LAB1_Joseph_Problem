@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1
+CMAKE_SOURCE_DIR = C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,9 +76,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\cmake-build-debug\CMakeFiles C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\cmake-build-debug\CMakeFiles C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -166,6 +166,30 @@ ListByLink.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab_1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab_1.dir\ListByLink.cpp.s
 .PHONY : ListByLink.cpp.s
 
+ResultPackage.obj: ResultPackage.cpp.obj
+.PHONY : ResultPackage.obj
+
+# target to build an object file
+ResultPackage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab_1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab_1.dir\ResultPackage.cpp.obj
+.PHONY : ResultPackage.cpp.obj
+
+ResultPackage.i: ResultPackage.cpp.i
+.PHONY : ResultPackage.i
+
+# target to preprocess a source file
+ResultPackage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab_1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab_1.dir\ResultPackage.cpp.i
+.PHONY : ResultPackage.cpp.i
+
+ResultPackage.s: ResultPackage.cpp.s
+.PHONY : ResultPackage.s
+
+# target to generate assembly for a file
+ResultPackage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab_1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab_1.dir\ResultPackage.cpp.s
+.PHONY : ResultPackage.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -205,6 +229,9 @@ help:
 	@echo ... ListByLink.obj
 	@echo ... ListByLink.i
 	@echo ... ListByLink.s
+	@echo ... ResultPackage.obj
+	@echo ... ResultPackage.i
+	@echo ... ResultPackage.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

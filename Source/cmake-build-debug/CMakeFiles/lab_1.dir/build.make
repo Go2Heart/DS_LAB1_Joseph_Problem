@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1
+CMAKE_SOURCE_DIR = C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\lab_1.dir\depend.make
@@ -57,66 +57,86 @@ include CMakeFiles\lab_1.dir\flags.make
 
 CMakeFiles\lab_1.dir\ListByArray.cpp.obj: CMakeFiles\lab_1.dir\flags.make
 CMakeFiles\lab_1.dir\ListByArray.cpp.obj: ..\ListByArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab_1.dir/ListByArray.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab_1.dir/ListByArray.cpp.obj"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\lab_1.dir\ListByArray.cpp.obj /FdCMakeFiles\lab_1.dir\ /FS -c C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\ListByArray.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\lab_1.dir\ListByArray.cpp.obj /FdCMakeFiles\lab_1.dir\ /FS -c C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\ListByArray.cpp
 <<
 
 CMakeFiles\lab_1.dir\ListByArray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab_1.dir/ListByArray.cpp.i"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\lab_1.dir\ListByArray.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\ListByArray.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\ListByArray.cpp
 <<
 
 CMakeFiles\lab_1.dir\ListByArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab_1.dir/ListByArray.cpp.s"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\lab_1.dir\ListByArray.cpp.s /c C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\ListByArray.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\lab_1.dir\ListByArray.cpp.s /c C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\ListByArray.cpp
 <<
 
 CMakeFiles\lab_1.dir\ListByLink.cpp.obj: CMakeFiles\lab_1.dir\flags.make
 CMakeFiles\lab_1.dir\ListByLink.cpp.obj: ..\ListByLink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab_1.dir/ListByLink.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab_1.dir/ListByLink.cpp.obj"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\lab_1.dir\ListByLink.cpp.obj /FdCMakeFiles\lab_1.dir\ /FS -c C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\ListByLink.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\lab_1.dir\ListByLink.cpp.obj /FdCMakeFiles\lab_1.dir\ /FS -c C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\ListByLink.cpp
 <<
 
 CMakeFiles\lab_1.dir\ListByLink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab_1.dir/ListByLink.cpp.i"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\lab_1.dir\ListByLink.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\ListByLink.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\ListByLink.cpp
 <<
 
 CMakeFiles\lab_1.dir\ListByLink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab_1.dir/ListByLink.cpp.s"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\lab_1.dir\ListByLink.cpp.s /c C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\ListByLink.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\lab_1.dir\ListByLink.cpp.s /c C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\ListByLink.cpp
 <<
 
 CMakeFiles\lab_1.dir\main.cpp.obj: CMakeFiles\lab_1.dir\flags.make
 CMakeFiles\lab_1.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab_1.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab_1.dir/main.cpp.obj"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\lab_1.dir\main.cpp.obj /FdCMakeFiles\lab_1.dir\ /FS -c C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\lab_1.dir\main.cpp.obj /FdCMakeFiles\lab_1.dir\ /FS -c C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\main.cpp
 <<
 
 CMakeFiles\lab_1.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab_1.dir/main.cpp.i"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\lab_1.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\main.cpp
 <<
 
 CMakeFiles\lab_1.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab_1.dir/main.cpp.s"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\lab_1.dir\main.cpp.s /c C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\lab_1.dir\main.cpp.s /c C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\main.cpp
+<<
+
+CMakeFiles\lab_1.dir\ResultPackage.cpp.obj: CMakeFiles\lab_1.dir\flags.make
+CMakeFiles\lab_1.dir\ResultPackage.cpp.obj: ..\ResultPackage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab_1.dir/ResultPackage.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\lab_1.dir\ResultPackage.cpp.obj /FdCMakeFiles\lab_1.dir\ /FS -c C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\ResultPackage.cpp
+<<
+
+CMakeFiles\lab_1.dir\ResultPackage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab_1.dir/ResultPackage.cpp.i"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\lab_1.dir\ResultPackage.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\ResultPackage.cpp
+<<
+
+CMakeFiles\lab_1.dir\ResultPackage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab_1.dir/ResultPackage.cpp.s"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\lab_1.dir\ResultPackage.cpp.s /c C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\ResultPackage.cpp
 <<
 
 # Object files for target lab_1
 lab_1_OBJECTS = \
 "CMakeFiles\lab_1.dir\ListByArray.cpp.obj" \
 "CMakeFiles\lab_1.dir\ListByLink.cpp.obj" \
-"CMakeFiles\lab_1.dir\main.cpp.obj"
+"CMakeFiles\lab_1.dir\main.cpp.obj" \
+"CMakeFiles\lab_1.dir\ResultPackage.cpp.obj"
 
 # External object files for target lab_1
 lab_1_EXTERNAL_OBJECTS =
@@ -124,11 +144,12 @@ lab_1_EXTERNAL_OBJECTS =
 lab_1.exe: CMakeFiles\lab_1.dir\ListByArray.cpp.obj
 lab_1.exe: CMakeFiles\lab_1.dir\ListByLink.cpp.obj
 lab_1.exe: CMakeFiles\lab_1.dir\main.cpp.obj
+lab_1.exe: CMakeFiles\lab_1.dir\ResultPackage.cpp.obj
 lab_1.exe: CMakeFiles\lab_1.dir\build.make
 lab_1.exe: CMakeFiles\lab_1.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable lab_1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable lab_1.exe"
 	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\lab_1.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\lab_1.dir\objects1.rsp @<<
- /out:lab_1.exe /implib:lab_1.lib /pdb:C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\cmake-build-debug\lab_1.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:lab_1.exe /implib:lab_1.lib /pdb:C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\cmake-build-debug\lab_1.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -140,6 +161,6 @@ CMakeFiles\lab_1.dir\clean:
 .PHONY : CMakeFiles\lab_1.dir\clean
 
 CMakeFiles\lab_1.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1 C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1 C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\cmake-build-debug C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\cmake-build-debug C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\cmake-build-debug\CMakeFiles\lab_1.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\cmake-build-debug C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\cmake-build-debug C:\Users\TRY\Desktop\Codefield\C_Multiple\lab_1\Source\cmake-build-debug\CMakeFiles\lab_1.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\lab_1.dir\depend
 
