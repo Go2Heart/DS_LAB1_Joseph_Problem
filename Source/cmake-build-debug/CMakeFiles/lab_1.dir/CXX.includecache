@@ -8,25 +8,7 @@
 
 C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ListByArray.h
 
-C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ListByLink.cpp
-cstdio
--
-cstdlib
--
-ResultPackage.h
-C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ResultPackage.h
-ListByLink.h
 C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ListByLink.h
-
-C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ListByLink.h
-
-C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ResultPackage.cpp
-cstdio
--
-cstdlib
--
-ResultPackage.h
-C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ResultPackage.h
 
 C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ResultPackage.h
 
@@ -39,4 +21,6 @@ ListByArray.h
 C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ListByArray.h
 ListByLink.h
 C:/Users/TRY/Desktop/Codefield/C_Multiple/lab_1/Source/ListByLink.h
+stdlib.h
+-
 

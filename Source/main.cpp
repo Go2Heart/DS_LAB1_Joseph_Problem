@@ -2,6 +2,7 @@
 #include "ResultPackage.h"
 #include "ListByArray.h"
 #include "ListByLink.h"
+#include <stdlib.h>
 bool SolByArray(int InitN, int InitM)
 {
     ListByArray List;
@@ -38,6 +39,7 @@ bool SolByLink(int InitN, int InitM)
 	ResultList resultList;
 	FILE* fout = fopen("AnsByLink.out", "w");
 	FILE* fout_d = fopen("demo.csv","w");
+    fprintf(fout_d, "%d,%d\n",InitN,InitM);
 	if(!List.InitList()) return false;
 	if(!InitDemo(List.Demo))return false;
 	if(!resultList.InitList(InitN)) return false;
@@ -51,11 +53,14 @@ bool SolByLink(int InitN, int InitM)
 		List.PrintListForDebug();
 		if(!List.DeleteNextMthElement(InitM, &Result))
 			return false;
+        resultList.PrintList(fout);
+
 		Result.Cost += PreCost;
 		PreCost = Result.Cost;
 		if(!resultList.Insert(Result)) 
 			return false;
 		fprintf(fout_d, "%d,",Result.Pos);
+        fprintf(fout_d, "%d,",  Result.Cost);
 	}
 	fprintf(fout_d, "\n");
 	ListNode* temp = List.Demo.T;
@@ -63,9 +68,12 @@ bool SolByLink(int InitN, int InitM)
         fprintf(fout_d, "%d,", List.Demo.T->Next->Data);
         List.Demo.T->Next = List.Demo.T->Next->Next;
     }
+
 	if(!List.DestroyList()) return false;
 	if(!resultList.DestroyList()) return false;
+
 	fclose(fout);
+    fclose(fout_d);
 	return true;
 }
 int main()
@@ -76,4 +84,5 @@ int main()
 		puts("ERROR!");
 	if(!SolByLink(InitN, InitM))
 		puts("ERROR!");
+    system("game.exe");
 }
