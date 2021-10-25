@@ -1,3 +1,0 @@
-C:/Users/TRY/Desktop/Codefield/DataStructure/LAB_1/replacement/build/CMakeFiles/edit_cache.dir
-C:/Users/TRY/Desktop/Codefield/DataStructure/LAB_1/replacement/build/CMakeFiles/lab_1.dir
-C:/Users/TRY/Desktop/Codefield/DataStructure/LAB_1/replacement/build/CMakeFiles/rebuild_cache.dir
